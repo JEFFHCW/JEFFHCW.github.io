@@ -1,0 +1,934 @@
+*{  
+	box-sizing: border-box;
+	font-family: 微軟正黑體;
+	font-weight: bold;
+}
+body{
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.navbar{
+	width: 100%;
+	height: 200px;
+	position:relative;
+	background-color: rgba(95,95, 95, 1.0);
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.logo{
+	width: 166px;
+	height: 166px;
+	position: absolute;
+	left: 200px;
+	top: 17px;
+	background-image: url('img/logo.png');
+	background-size: cover;
+}
+.navbar .choice{
+	width: 60%;
+	height:200px;
+	float: right;
+	display: flex;
+	align-items: flex-end;
+	margin-right: 20px;
+}
+.navbar .choice .choicebtn{
+    padding: 10px 10px;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.choicebtn:hover{
+        background-color: black;
+        color: gray;
+}
+.choice1{
+	width: 0;
+	height: 0;
+	overflow: hidden;
+}
+.swiper-container {
+      width: 100%;
+      height: 684px;
+    }
+.swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+}
+.slide1{
+    	background-image: url('img/cover.jpg')
+}
+.slide2{
+        background-image: url('img/cover2.jpg');
+}
+.slide3{
+    	background-image: url('')
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.about{
+	width: 100%;
+	height: 540px;
+}
+.title{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 10px;
+}
+h1{
+	margin-left: 15px;
+}
+.content{
+	width: 100%;
+	height: 500px;
+	background-image: url('img/images.jpg');
+	background-size: cover;
+	padding-left: 10% ;
+}
+.up,.down{
+	width: 100%;
+	height: 50%;
+}
+.left{
+	width: 27%;
+	height: 97%;
+	float: left;
+	padding: 1.5%
+}
+.leftup{
+	width: 100%;
+	height: 15%;
+	margin-bottom: 20px
+}
+h2{
+	margin: 0 auto;
+	text-align: center;
+}
+.leftdown{
+	width: 100%;
+	height: 70%;
+	background-image: url('img/guest.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.right{
+	width: 60%;
+	height: 90%;
+	padding: 5%;
+	float: left;
+}
+p{
+	line-height: 40px;
+}
+.downup{
+    width: 27%;
+    height: 17%;
+}
+.downdown{
+	width: 98%;
+	height: 81%;
+	padding: 1%;
+}
+.pic1{
+	width: 25%;
+	height: 80%;
+    float: left;
+    background-image: url('img/environment.jpg');
+    background-size: cover;
+    margin-right: 5%;
+}
+.pic2{
+	width: 25%;
+	height: 80%;
+    float: left;
+    background-image: url('img/all enviroment.jpg');
+    background-size: cover;
+    margin-right: 5%;
+}
+.pic3{
+	width: 25%;
+	height: 80%;
+    float: left;
+    background-image: url('img/bar.jpg');
+    background-size: cover;
+}
+.news{
+	width: 100%;
+	height: 400px;
+}
+.content2{
+	width: 100%;
+	height: 360px;
+	padding: 20px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.box1{
+	width: 45%;
+	height: 100%;
+	float: left;
+	background-image: url('img/activity.jpg');
+	background-size: cover;
+	margin-right: 5%
+
+}
+.box2{
+	width: 45%;
+	height: 100%;
+	float: left;
+
+}
+.actbtn{
+	margin-right: 30px;
+	width: 5%;
+	height: 5%;
+	font-size: 30px;
+	color: black;
+	text-decoration: none;
+}
+.container .news .content2 p{
+	font-size: 35px;
+}
+.dartsmachine{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.content3{
+	width: 100%;
+	height: 1500px;
+	background-image: url('img/dark_wood_@2X.png');
+	background-size: cover;
+}
+.content3up{
+	width: 100%;
+    height: 380px;
+    margin-bottom: 10px;
+}
+.upright{
+	width: 60%;
+	height: 100%;
+	float: left;
+	padding: 40px;  
+}
+.container .dartsmachine .content3 .content3up .upright p{
+	line-height: 50px;
+	font-size: 20px;
+	color: white;
+}
+.upleft{
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+.upleftup{
+    width: 100%;
+    height: 15%;
+}
+.upleftdown{
+	width: 100%;
+	height: 80%;
+	background-image: url('img/dartsplate.jpg');
+	background-size: cover;
+}
+.content3down{
+	width: 100%;
+	height: 1070px;
+}
+.smalltitle{
+	width: 40%;
+	height: 30px;
+	margin-bottom: 20px;
+}
+.block{
+	width: 100%;
+	height: 210px;
+}
+.blockl{
+	width: 10%;
+	height: 210px;
+	float: left;
+}
+.blockr{
+	width: 90%;
+	height: 210px;
+	float: left; 
+}
+.pica{
+	width: 40%;
+	height: 210px;
+	float: left;
+	background-image: url('img/skill1.jpg');
+	background-size: cover;
+	margin-left: 10%;
+}
+.picb{
+	width: 40%;
+	height: 210px;
+	float: left;
+	background-image: url('img/skill2.jpg');
+	background-size: cover;
+}
+.picc{
+	width: 40%;
+	height: 210px;
+	float: left;
+	background-image: url('img/darts.jpg');
+	background-size: cover;
+	margin-left: 10%;
+}
+.picd{
+	width: 40%;
+	height: 210px;
+	float: left;
+	background-image: url('img/darts2.jpg');
+	background-size: cover;
+}
+.container .dartsmachine h2{
+	color: white;
+	font-size: 30px;
+}
+.container .dartsmachine .content3 .content3down .content3content .block .blockr.p p{
+	font-size: 30px; 
+	/* text-align: center; */
+	line-height: 60px;
+	margin-left: 20%;
+	color: white
+}
+.container .dartsmachine .content3 .content3down .content3content .block .blockr p{
+	font-size: 30px; 
+	/* text-align: center; */
+	line-height: 40px;
+	margin-left: 20%;
+	color: white;
+}
+.pice{
+	width: 60%;
+	height: 210px;
+	margin-left: 20%;
+	background-image: url('img/relatedstore.jpg');
+	background-size: cover;
+}
+h3{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+.dartsgame{
+	width: 100%;
+	height: 830px;
+}
+.content4{
+	width: 100%;
+	height: 760px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+.game{
+	width: 40%;
+	height: 350px;
+}
+.gamepic{
+	width: 100%;
+	height: 200px;
+}
+.gametxt{
+	width: 100%;
+	height: 150px;
+	margin-left: 20px;
+}
+.picture1{
+	background-image: url('img/dartgame1.jpg');
+	background-size: cover;
+}
+.picture2{
+	background-image: url('img/dartgame2.jpg');
+	background-size: cover; 
+}
+.picture3{
+	background-image: url('img/darsgame3.jpg');
+	background-size: cover; 
+}
+.picture4{
+	background-image: url('img/dartgame4.jpg');
+	background-size: cover; 
+}
+.MENU{
+	width: 100%;
+}
+.content5{
+	width: 100%;
+	background-image: url('img/dark_wood_@2X.png')
+}
+.drink{
+   width: 100%;
+   height: 700px;
+   margin-bottom: 10px;
+   padding: 10px;
+}
+.drinkup{
+	width: 30%;
+	height: 40px;
+}
+.container .MENU .content5 .drink .drinkup h2{
+    color: white;
+    font-size: 30px;
+}
+.container .MENU .content5 .drink2 .drinkup h2{
+    color: white;
+    font-size: 30px;
+}
+.drinkdown{
+	width: 100%;
+	height: 640px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+
+}
+.drinkclass{
+	width: 30%;
+	height: 300px;
+}
+.drinkpic{
+	width: 100%;
+	height: 270px;
+}
+.drinkname{
+	width: 100%;
+	height: 30px;
+}
+h4{
+	text-align: center;
+	margin: 0;
+	font-size: 25px;
+	color: white;
+}
+.drink2{
+	width: 100%;
+	height: 360px;
+	padding: 10px;
+}
+.drinkdown2{
+	width: 100%;
+	height: 350px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+.drinkpic1{
+	background-image: url('img/martini.jpg');
+	background-size: cover;
+}
+.drinkpic2{
+	background-image: url('img/longislandicetea.jpg');
+	background-size: cover;
+}
+.drinkpic3{
+	background-image: url('img/cosmopolitan.jpg');
+	background-size: cover;
+}
+.drinkpic4{
+	background-image: url('img/aroundworld.jpg');
+	background-size: cover;
+}
+.drinkpic5{
+	background-image: url('img/marguliter.jpg');
+	background-size: cover;
+}
+.drinkpic6{
+	background-image: url('img/mojito.jpg');
+	background-size: cover;
+}
+.drinkpic7{
+	background-image: url('img/hinigan.jpg');
+	background-size: cover;
+}
+.drinkpic8{
+	background-image: url('img/wheat.jpg');
+	background-size: cover;
+}
+.drinkpic9{
+	background-image: url('img/whitebeer.jpg');
+	background-size: cover;
+}
+.drinkpic10{
+	background-image: url('img/belgium.jpg');
+	background-size: cover;
+}
+.drinkpic11{
+	background-image: url('img/taiwanbeer.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.drinkpic12{
+	background-image: url('img/blackbeer.jpg');
+	background-size: cover;
+}
+.drinkpic13{
+	background-image: url('https://img.shopping.friday.tw/images/product/14/428427/428427_3_1.jpg?769190 ');
+	background-size: cover;
+}
+.drinkpic14{
+	background-image: url('img/greentea.jpg');
+	background-size: cover;
+}
+.drinkpic15{
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR64Cmna-rXGhY9qop_wc5lkUMFmfTeYrB5sC6FkpQbh7JSGZwK');
+	background-size: cover;
+}
+.drinkpic16{
+	background-image: url('img/milktea.jpg');
+	background-size: cover;
+}
+.drinkpic17{
+	background-image: url('img/cola.jpg');
+	background-size: cover;
+}
+.drinkpic18{
+	background-image: url('img/sprite.jpg');
+	background-size: cover;
+}
+.drinkpic19{
+	background-image: url('https://my-best.tw/wp-content/uploads/2017/12/Perrier750ml_700x700-300x300.jpg');
+	background-size: cover;
+}
+.footer{
+	width: 100%;
+	height: 520px;
+	padding: 20px 10%;
+	background-color: rgba(95,95, 95, 1.0);
+}
+.inf{
+	width: 40%;
+	height: 500px;
+	float: left;
+}
+h5{
+	font-size: 30px;
+	margin: 0;
+	color: white;
+}
+.footer .inf p{
+	margin: 0.5px 0 ;
+	color: white;
+} 
+.googlemap{
+	width: 40%;
+	height: 500px;
+	float: left;
+}
+.footer .inf1{
+	width:0;
+	height: 0;
+	overflow: hidden;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.back {
+	width: 80px;
+	height: 80px;
+	border: solid 1px;
+	border-radius: 40px;
+	position: fixed;
+	bottom: 20%;
+	right: 3%;
+	padding: 15px;
+	box-sizing: border-box;
+	background-color: gray;
+}
+.back a{
+	color: black;
+	text-decoration: none;
+	font-size: 30px;
+	transition-duration: 0.5s
+}
+.back:hover{
+	background-color: black;
+}
+.back:hover a{
+	color: white;
+}
+.active{
+	height: 360px;
+}
+@media screen and (max-width: 576px){
+.navbar{
+	width: 100%;
+	height: 100px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.navbar .choice{
+	height: 0;
+	overflow: hidden;
+}
+.navbar .choice .choicebtn{
+	overflow: hidden;
+	height: 0;
+}
+.choice1{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	float: left;
+	left: 0;
+	background-color: black;
+}
+.choice1 .line{
+	width: 80px;
+	height: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color:white; 
+}
+.choice1 .line:nth-child(1) {
+	top: 25%;
+}
+.choice1 .line:nth-child(3) {
+	top: 75%;
+}
+.logo{
+	height: 100px;
+	width: 100px;
+    float: left;
+    position: absolute;
+    left: calc(50% - 50px);
+    border-radius: 50px;
+    top: 0;
+}
+ul{
+	width: 50%;
+	height: 0 ;
+	overflow: hidden;
+	position: absolute;
+	top: 80px;
+	z-index: 2;
+	background-color: gray;
+}
+li{
+	padding: 10px 20px;
+	list-style: none;
+	color: white;
+	font-size: 30px;
+}
+.swiper-container{
+	width: 100%;
+	height: 300px;
+}
+.container{
+	width: 576px;
+	margin: 0 auto;
+}
+.about{
+	width: 100%;
+	height: 644px;
+
+}
+.title{
+	width: 100%;
+	height: 40px;
+	margin: 0;
+}
+h1{
+	text-align: center;
+	margin: 0;
+}
+.content{
+	width: 100%;
+	height: 602px;
+	padding: 0;
+}
+.up , .down{
+	width: 100%;
+	height: 300px;
+}
+.left{
+	width: 100%;
+	height: 200px;
+	padding: 0;
+	float: none;
+}
+.leftup{
+	width: 100%;
+	height: 40px;
+	margin: 0;
+}
+h2{
+	text-align: center;
+	margin: 0;
+}
+.leftdown{
+	width: 100%;
+	height: 160px;
+}
+.right{
+	width: 100%;
+	height: 100px;
+	padding: 0;
+	float: none; 
+}
+p{
+	margin: 0;
+	line-height: 25px !important;
+	font-size: 20px !important;
+}
+.downup{
+	width: 100%;
+	height: 40px;
+}
+.downdown{
+	width: 100%;
+	height: 260px;
+}
+.pic1,.pic2,.pic3{
+	width: 100%;
+	height: 80px;
+}
+.pic1{
+	margin-bottom: 5px;
+}
+.pic2{
+	margin-bottom: 5px;
+}
+.news{
+	width: 100%;
+	height: 442px;
+}
+.content2{
+	width: 100%;
+	height: 400px;
+	padding: 0;
+}
+.box1{
+	width: 100%;
+	height: 250px;
+	margin: 0;
+	float: none;
+}
+.box2{
+	width: 100%;
+	height: 150px;
+	position: relative
+}
+.actbtn{
+    padding:10px; 
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 0;
+    font-size: 20px;
+}
+.container .content2 .box2 p{
+	text-align: left: ;
+	line-height: 35px;
+	font-size: 30px;
+	position: absolute;
+	left: 100px;
+	top: 40px;
+}
+.dartsmachine{
+	width: 100%;
+	height: 1152px;
+	margin: 0;
+}
+.content3{
+	width: 100%;
+	height: 1102px;
+	margin: 0;
+}
+.content3up{
+    width: 100%;
+    height: 350px;	
+}
+.upleft{
+	width: 100%;
+	height: 250px;
+	float: none;
+}
+.upleftup{
+	width: 100%;
+	height: 40px;
+}
+.upleftdown{
+	width: 100%;
+	height: 210px;
+}
+.upright{
+	width: 100%;
+	height: 100px;
+	float: none;
+	padding: 0
+}
+.content3down{
+	width: 100%;
+	height: 700px;
+}
+.smalltitle{
+	width: 100%;
+	height: 40px;
+	margin: 0;
+}
+.content3content{
+	width: 100%;
+	height: 660px;
+}
+.block{
+	width: 100%;
+	height: 132px;
+}
+.blockl{
+	width: 10%;
+	height: 100%;
+	float: left;
+}
+.blockr{
+	width: 90%;
+	height: 100%;
+	float: left;
+}
+h3{
+	margin: 0;
+	text-align: center;
+	font-size: 20px;
+}
+.pica,.picb,.picc,.picd{
+	width: 50%;
+	height: 100%;
+	float: left;
+	margin: 0;
+}
+.pice{
+	width: 75%;
+	height: 100%;
+	margin: 0 12.5%;
+}
+.dartsgame{
+	width: 100%;
+	height: 1242px;
+}
+.content4{
+    width: 100%;
+    height: 1200px;
+    margin: 0;
+}
+.game{
+	width: 100%;
+	height: 300px;
+}
+.gamepic{
+	width: 70%;
+	height: 200px;
+	margin:0 15%;
+}
+.gametxt{
+	width: 70%;
+	height: 100px;
+	margin: 0 15%;
+}
+.MENU{
+	width: 100%;
+	height: 2404px;
+}
+.content5{
+	width: 100%;
+	height: 2362px;
+}
+.drink{
+	width: 100%;
+	height: 640px;
+	padding: 0;
+	margin:0; 
+}
+.drinkup{
+	width: 100%;
+	height: 40px;
+}
+.drinkdown{
+	width: 100%;
+	height: 600px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.drinkclass{
+	width: 40%;
+	height: 180px;
+
+}
+.drinkpic{
+	width: 100%;
+	height: 150px;
+}
+.drinkname{
+	width: 100%;
+	height: 30px;
+}
+h4{
+	text-align: center;
+	margin: 0;
+}
+.drink2{
+	width: 100%;
+	height: 440px;
+}
+.drinkdown2{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.contactus{
+	width: 100%;
+	height: 42px;
+}
+.footer{
+	width: 100%;
+	height: 300px;
+}
+.inf{
+	height: 0;
+	overflow: hidden;
+}
+.googlemap{
+	height: 0;
+	overflow: hidden;
+}
+.inf1{
+	width: 94%;
+	height: 250px;
+    margin: 0 3%;
+}
+.footer .inf1 h6{
+	margin: 0;
+	text-align: center;
+	font-size: 20px;
+	line-height: 40px;
+}
+}
