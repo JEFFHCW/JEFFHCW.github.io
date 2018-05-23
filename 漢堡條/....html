@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>	</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="navbar">
+		<div id="collapse" class="collapse">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</div>
+		<ul id="ul">
+			<li>按鈕1</li>
+			<li>按鈕2</li>
+			<li>按鈕3</li>
+			<li>按鈕4</li>
+		</ul>
+	</div>
+	<script>
+		var ocollapse = document.querySelector("#collapse");
+		var oul = document.querySelector("#ul");
+
+		ocollapse.onclick = function() {
+			oul.classList.toggle("active");
+		}
+	</script>
+</body>
+</html>
