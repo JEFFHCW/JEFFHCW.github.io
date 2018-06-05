@@ -22,18 +22,21 @@
         <div class="navbar1" id="navbar1">
         <div class="line"></div>
         <div class="line"></div>
-        <div class="line"></div>
-        <ul id="ul">
-          <li>關於我們</li>
-          <li>公告</li>
-          <li>產品介紹</li>
-          <li>最新情報</li>
-          <li>聯絡我們</li>
-        </ul>
-      </div>
-
-
+		<div class="line"></div>
+		
 		</div>
+		<div class="choice" id="choice_btn" >
+			<ul id="ul">
+			  <li><a href="#about">關於我們</a></li>
+			  <li><a href="#Public Service Announcement">公告</a></li>
+			  <li><a href="#product">產品介紹</a></li>
+			  <li><a href="#news">最新情報</a></li>
+			  <li><a href="#contact">聯絡我們</a></li>
+			</ul>
+		   </div>
+
+
+	  </div>
   
 	  <div class="swiper-container">
          <div class="swiper-wrapper">
@@ -287,6 +290,12 @@
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper('.swiper-container');
+	var onavbar1 = document.querySelector("#navbar1");
+	var ochoice = document.querySelector("#choice_btn");
+	
+	onavbar1.onclick = function() {
+		ochoice.classList.toggle("active");
+	}
   </script>
 
 
